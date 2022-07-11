@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+ </head>
+ <body>
+    <div class="wrapper active">
+
+      <span class="back_icon"><img src="./weather-app-icons/backicon.png" alt="back Arrow"></span>
+      <span class="header" > Weather WebApp</span>
+      <section class="input_part ">
+         <p class="info_txt ">
+            Please Enter a valid city name
+         </p>
+         <input type="text" placeholder="Enter city name" spellcheck="false" required>
+         <div class="separator"></div>
+         <button>Get Device Loction</button>
+      </section>
+
+      <!-- code for weather of city-->
+      <section class="weather-part">
+         <img src="./weather-app-icons/clear.svg" alt="weather icon">
+         <div class="temp">
+            <span class="numb">13</span>
+            <span class ="deg">°C</span>
+         </div>
+         <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>kathmandu, Nepal</span>
+         </div>
+         <div class="bottom-details">
+            <div class="column feels">
+               <i class="fa-solid fa-temperature-empty"></i>
+               <div class="details">
+                  <div class="temp">
+                     <span class="numb-2">17</span>
+                     <span class="deg">°C</span>
+                  </div>
+                  <p>Feels like</p>
+               </div>
+            </div>
+            <div class="column humidity">
+               <i class="fa-solid fa-droplet"></i>
+               <div class="details">
+                  <span>84%</span>
+                  <p>Humidity</p>
+               </div>
+            </div>
+         </div>
+
+      </section>
+    </div>
+ </body>
+ </html>
